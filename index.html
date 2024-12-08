@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="form-title">Test</h2>
+
+        <form id="form">
+            <div class="input-section">
+                <div class="field-group">
+                    <label for="input-field">Name/Value Pair</label>
+                    <input type="text" id="input-field" placeholder="Name=Value">
+                </div>
+
+                <div class="btn-wrapper">
+                    <button id="btn-add" class="btn">Add</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="list-section">
+            <div class="field-group">
+                <label for="select-field">Name/Value Pair List</label>
+                <select multiple id="select-field" size="12">
+                    <!-- options will be added from index.js -->
+                </select>
+            </div>
+
+            <div class="btn-wrapper">
+                <button id="btn-sort-name" class="btn">Sort by Name</button>
+                <button id="btn-sort-value" class="btn">Sort by Value</button>
+                <button id="btn-delete" class="btn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

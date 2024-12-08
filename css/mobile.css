@@ -1,0 +1,53 @@
+@media screen and (max-width: 769px) {
+    .form-container {
+        width: 100%;
+        max-width: 350px;
+        padding: 40px 30px;
+    }
+
+    /*----------input-section----------*/
+    .input-section {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
+    }
+
+    .invalid {
+        margin-bottom: 10px;
+    }
+
+    .btn-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    #btn-add {
+        margin-bottom: 0;
+        width: 100%;
+        grid-column: span 2;
+    }
+
+    /*-----------list-section---------------*/
+    .list-section {
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #btn-sort-name {
+        margin-top: 0;
+    }
+
+    #btn-sort-value {
+        margin-top: 0;
+    }
+
+    #btn-delete {
+        margin-top: 0;
+        width: 100%;
+        grid-column: span 2;
+    }
+}
